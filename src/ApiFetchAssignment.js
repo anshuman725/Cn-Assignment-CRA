@@ -18,7 +18,7 @@ const ApiFetchAssignment=()=>{
     //     [],
     // )
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/photos')
+        fetch("https://jsonplaceholder.typicode.com/photos/?_limit=50")
               .then(res=>res.json())
               .then(data=>{
                   setData(data)
