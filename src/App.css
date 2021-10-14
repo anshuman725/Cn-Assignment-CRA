@@ -1,7 +1,19 @@
 .App {
   text-align: center;
 }
-
+.b1{
+  margin: 10px;
+  border: none;
+  background-color: #61dafb;
+  height: 40px;
+  width: 50%;
+  text-align: center;
+  border-radius: 4px;
+  
+}
+.b1:hover{
+  background-color: aliceblue;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
